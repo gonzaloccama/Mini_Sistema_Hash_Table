@@ -1,0 +1,299 @@
+JFDML JFormDesigner: "6.0.1.0.112" Java: "1.8.0_112-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 15, 52, 76, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel2"
+					"background": new java.awt.Color( 27, 32, 35, 255 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "btnRegresar"
+						"text": "REGRESAR"
+						"background": &Color0 new java.awt.Color( 52, 96, 87, 255 )
+						"font": &Font0 new java.awt.Font( "Segoe UI", 1, 12 )
+						"foreground": &Color1 new java.awt.Color( 204, 204, 204, 255 )
+						"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Ccama\\IdeaProjects\\system_in_hashtable\\recursos\\arrow-back-icon.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnRegresarActionPerformed", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 175
+						"height": 32
+						"x": 325
+						"y": 20
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "btnGuardarNotas"
+						"text": "GUARDAR NOTAS"
+						"background": #Color0
+						"font": #Font0
+						"foreground": #Color1
+						"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\Ccama\\IdeaProjects\\system_in_hashtable\\recursos\\green-disk-icon.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnGuardarNotasActionPerformed", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 175
+						"height": 32
+						"x": 45
+						"y": 20
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 530
+					"height": 75
+					"x": 0
+					"y": 410
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "INGRESAR NOTAS"
+					"font": new java.awt.Font( "Berlin Sans FB", 1, 28 )
+					"foreground": new java.awt.Color( 0, 153, 153, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 240
+					"height": 36
+					"x": 145
+					"y": 5
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel9"
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color lightGray, 1, false )
+					"background": new java.awt.Color( 15, 52, 76, 255 )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel12"
+						"background": &Color2 new java.awt.Color( 204, 204, 204, 255 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 1
+						"x": 0
+						"y": 353
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "NOTA 1:"
+						"font": &Font1 new java.awt.Font( "Calibri", 1, 12 )
+						"foreground": &Color3 new java.awt.Color( 204, 204, 204, 255 )
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 15
+						"x": 0
+						"y": 50
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "txtNota_1"
+						"background": &Color4 new java.awt.Color( 13, 51, 76, 255 )
+						"font": &Font2 new java.awt.Font( "Segoe UI", 0, 16 )
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"disabledTextColor": &Color5 new java.awt.Color( 204, 204, 204, 255 )
+						"cursor": &Cursor0 new java.awt.Cursor( 2 )
+						"caretColor": &Color6 new java.awt.Color( 204, 204, 204, 255 )
+						"foreground": &Color7 new java.awt.Color( 204, 204, 204, 255 )
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 445
+						"height": 22
+						"x": 5
+						"y": 65
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel7"
+						"background": #Color2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 1
+						"x": 0
+						"y": 87
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "NOTA 2:"
+						"font": #Font1
+						"foreground": #Color3
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 15
+						"x": 0
+						"y": 95
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "txtNota_2"
+						"background": #Color4
+						"font": #Font2
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"disabledTextColor": #Color5
+						"cursor": #Cursor0
+						"caretColor": #Color6
+						"foreground": #Color7
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 445
+						"height": 22
+						"x": 5
+						"y": 110
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel8"
+						"background": #Color2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 1
+						"x": 0
+						"y": 132
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "NOTA 3:"
+						"font": #Font1
+						"foreground": #Color3
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 15
+						"x": 0
+						"y": 140
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel10"
+						"background": #Color2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 1
+						"x": 0
+						"y": 177
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "txtNota_3"
+						"background": #Color4
+						"font": #Font2
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"disabledTextColor": #Color5
+						"cursor": #Cursor0
+						"caretColor": #Color6
+						"foreground": #Color7
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 445
+						"height": 22
+						"x": 5
+						"y": 155
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "NOTA 4:"
+						"font": #Font1
+						"foreground": #Color3
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 15
+						"x": 0
+						"y": 185
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "txtNota_4"
+						"background": #Color4
+						"font": #Font2
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"disabledTextColor": #Color5
+						"cursor": #Cursor0
+						"caretColor": #Color6
+						"foreground": #Color7
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 445
+						"height": 22
+						"x": 5
+						"y": 200
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": "NOMBRE DEL CURSO:"
+						"font": #Font1
+						"foreground": #Color3
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"x": 0
+						"y": 5
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "txtCurso"
+						"background": #Color4
+						"font": #Font2
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"disabledTextColor": #Color5
+						"cursor": #Cursor0
+						"caretColor": #Color6
+						"foreground": #Color7
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 445
+						"x": 5
+						"y": 20
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel11"
+						"background": #Color2
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 455
+						"height": 1
+						"x": 0
+						"y": 42
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 455
+					"height": 224
+					"x": 40
+					"y": 130
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel3"
+					"background": new java.awt.Color( 11, 24, 36, 255 )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color lightGray, 1, false )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"text": "CODIGO DEL ESTUDIANTE"
+						"font": new java.awt.Font( "Calibri", 1, 14 )
+						"foreground": #Color3
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 445
+						"height": 20
+						"x": 5
+						"y": 5
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "txtDNI"
+						"background": new java.awt.Color( 11, 24, 36, 255 )
+						"font": #Font2
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"disabledTextColor": #Color5
+						"cursor": #Cursor0
+						"caretColor": #Color6
+						"foreground": #Color7
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 445
+						"height": 22
+						"x": 5
+						"y": 25
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 455
+					"height": 48
+					"x": 40
+					"y": 60
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 530, 515 )
+		} )
+	}
+}
